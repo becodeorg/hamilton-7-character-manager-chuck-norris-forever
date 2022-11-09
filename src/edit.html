@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Forever - edit</title>
+</head>
+
+<body>
+    <header>
+        <h1>CHARACTER MANAGER</h1>
+        <hr>
+    </header>
+
+    <div>
+        <div>
+            <form action="" method="get" class="form-example">
+
+                <div class="form-example">
+                    <label for="portrait">Image</label>
+                    <br>
+                    <input type="file" name="portrait" id="portrait">
+                    <img id="displayImg">
+                    <div>
+                        <textarea style="display: none;" id="txt">
+                        </textarea>
+                      </div>
+                </div>
+
+                <div class="form-example">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="form-example">
+                    <label for="email">Intro</label>
+                    <br>
+                    <input type="intro" name="intro" id="intro">
+                </div>
+
+                <div class="form-example">
+                    <label for="description">Description</label>
+                    <br>
+                    <input type="text" name="description" id="description">
+                </div>
+
+                <div class="form-example">
+                    <input type="submit" value="Save changes">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./edit.js" type="module"></script>
+</body>
+</html>

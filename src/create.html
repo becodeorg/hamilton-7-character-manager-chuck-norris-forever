@@ -16,24 +16,43 @@
     <div>
         <div>
             <form action="" method="get" class="form-example">
+
                 <div class="form-example">
-                    <label for="name"></label>
-                    <input type="text" name="name" id="name" required>
+                    <label for="portrait">Image</label>
+                    <br>
+                    <input type="file" name="portrait" id="portrait">
+                    <div id="displayImg"></div>
+                    <div>
+                        <textarea style="display: none;" id="txt">
+                        </textarea>
+                      </div>
                 </div>
 
                 <div class="form-example">
-                    <label for="email"></label>
-                    <input type="intro" name="intro" id="intro" required>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="name">
                 </div>
 
                 <div class="form-example">
-                    <input type="submit" value="Savec changes">
+                    <label for="email">Intro</label>
+                    <br>
+                    <input type="intro" name="intro" id="intro">
                 </div>
+
                 <div class="form-example">
-                    <input type="submit" value="Delete character">
+                    <label for="description">Description</label>
+                    <br>
+                    <input type="text" name="description" id="description">
+                </div>
+
+                <div class="form-example">
+                    <input type="submit" value="Save changes">
                 </div>
             </form>
         </div>
     </div>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./index.js" type="module"></script>
 </body>
 </html>
