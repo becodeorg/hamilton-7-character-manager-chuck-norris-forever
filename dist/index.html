@@ -10,23 +10,25 @@
 
 <body class="bg-yellow-100">
     <header>
-        <h1 class="text-5xl h1">CHARACTER MANAGER</h1>
-        <form>
-            <input type="text" placeholder="Search character">
-        </form>
+        <div class="flex-row justify-around">
+            <h1 class="text-5xl">CHARACTER MANAGER</h1>
+            <form>
+                <input type="text" placeholder="Search character" class="rounded-lg absolute">
+            </form>
+        </div>
     </header>
     <hr>
-    <section>
-        <div>
-            <img>
-            <h3 class="text-green-500">title</h3>
+    <section class="p-6 grid gap-4 grid-cols-3 grid-rows-3 place-content-center">
+        <div class="bg-white text-grey-100 p-3 rounded-lg flex-col justify-items-center content-center">
+            <img class="border-slate-400 rounded-full w-12 h-12">
+            <h3 class="text-3xl txt">title</h3>
             <p>little desc</p>
             <a>See character</a>
         </div>
     </section>
 
     <section>
-        <button>Add a new character to the collection</button>
+        <button class="bg-blue-400 text-white p-2 m-10 place-content-center rounded-full">Add a new character to the collection</button>
     </section>
 <script src="/hamilton-7-character-manager-chuck-norris-forever.59712999.js"></script></body>
 </html>
