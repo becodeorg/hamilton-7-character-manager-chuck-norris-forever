@@ -12,10 +12,14 @@ axios.get("https://character-database.becode.xyz/characters")
     console.log(data);
     for (let i=0; i<data.length; i++) {
         let card = document.createElement("div");
+        card.classList.add("bg-white", "text-grey-400", "p-3", "rounded-lg", "flex-col", "text-center", "w-6/12", "gap-5", "flex", "items-center");
         let image = document.createElement("img");
+        image.classList.add("inline", "pr-2", "border-2", "border-slate-300", "rounded-full", "w-20", "h-20", "m-1");
         let name = document.createElement("h3");
+        name.classList.add("text-3xl", "text-center");
         let description = document.createElement("p");
         let characterCard = document.createElement("a");
+        characterCard.classList.add("border-2", "rounded-lg");
         image.setAttribute("src", "data:image/gif;base64," + data[i].image);
         name.innerText = data[i].name;
         description.innerText = data[i].shortDescription;

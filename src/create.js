@@ -1,7 +1,7 @@
 ////Get form input and post
 
 
-function handleSubmit(event) {
+async function handleSubmit(event) {
     event.preventDefault();
   
     const data = new FormData(event.target);
@@ -17,18 +17,14 @@ function handleSubmit(event) {
   
     console.log(valueName, valueIntro, valueDescription, url);
 
-    axios.post("https://character-database.becode.xyz/characters", {
+    await axios.post("https://character-database.becode.xyz/characters", {
         name: valueName,
         shortDescription: valueIntro,
         description: valueDescription,
         image: url,
         
      })
-     .then((res) => console.log(res))
-       
-
-
-    window.location.assign("./index.html");
+    // window.location.assign("./index.html");
   }
 
 
