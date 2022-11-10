@@ -21,9 +21,9 @@
                     <label for="portrait">Image</label>
                     <br>
                     <input type="file" name="portrait" id="portrait">
-                    <img id="displayImg">
+                    <div id="displayImg"></div>
                     <div>
-                        <textarea style="display: none;" id="txt">
+                        <textarea id="txt">
                         </textarea>
                       </div>
                 </div>
@@ -47,10 +47,12 @@
                 </div>
 
                 <div class="form-example">
-                    <input type="submit" value="Save changes">
+                    <!-- <input type="submit" value="Save changes"> -->
+                    <button id="submit">Submit</button>
                 </div>
             </form>
         </div>
+        <button id="delete">Delete</button>
     </div>
     <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="./edit.js" type="module"></script>

@@ -33,3 +33,21 @@ axios.get("https://character-database.becode.xyz/characters/"+ id)
 
 })
 
+//Delete
+
+async function deleteCharacter() {
+    await axios.delete("https://character-database.becode.xyz/characters/"+ id);
+    window.location.replace("./index.html");
+
+}
+
+document.getElementById("delete").addEventListener("click", () => {
+    let deletion = confirm("Are you sure you want to delete this character?");
+    console.log(deletion);
+    if (deletion === true) {
+        
+       deleteCharacter()
+    }
+    })
+
+    

@@ -7,9 +7,9 @@
     <title>Chuck Norris Forever - main</title>
 </head>
 
-<body>
+<body class="bg-gradient-to-r from-blue-500 to-red-500">
     <header>
-        <h1>CHARACTER MANAGER</h1>
+        <h1 class="text-5xl text-white">CHARACTER MANAGER</h1>
         <form>
             <input type="text" placeholder="Search character">
         </form>
@@ -21,8 +21,8 @@
     </section>
 
     <section>
-        <a class="createBtn" href="./create.html">Add a new character to the collection</a>
         <a id="editBtn">Edit this character card</a>
+        <button id="delete">Delete</button>
     </section>
     <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="./character.js" type="module"></script>

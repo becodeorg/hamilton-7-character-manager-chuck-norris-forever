@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 //Populate with existing character
 
 document.getElementById("displayImg");
@@ -15,21 +17,112 @@ console.log(id);
 axios.get("https://character-database.becode.xyz/characters/"+ id)
 .then((response) => response.data)
 .then((data) => {
-    let image = document.getElementById("displayImg");
+    let image = document.createElement("img");
     let name = document.getElementById("name");
     let description = document.getElementById("intro");
     let longDescription = document.getElementById("description");
+    document.getElementById("displayImg").appendChild(image);
     image.setAttribute("src", "data:image/gif;base64," + data.image);
-    name.innerText = data.name;
-    description.innerText = data.shortDescription;
-    longDescription.innerText = data.description;
-    document.getElementById("editBtn").setAttribute("href", "./edit.html?" + data.id);
-    card.appendChild(image);
-    card.appendChild(name);
-    card.appendChild(description);
-    card.appendChild(longDescription);
-    container.appendChild(card);
+    document.getElementById("txt").value = document.getElementById("displayImg").innerHTML;
+    name.value = data.name;
+    description.value = data.shortDescription;
+    longDescription.value = data.description;
 
 
 
 })
+
+////Get form input and post
+
+
+async function handleSubmit(event) {
+    event.preventDefault();
+  
+    // const data = new FormData(event.target);
+
+
+    let url = document.getElementById("txt").value.slice(33);
+  
+    const valueName = document.getElementById('name').value;
+
+    const valueIntro = document.getElementById('intro').value;
+
+    const valueDescription = document.getElementById('description').value;
+  
+    console.log(valueName, valueIntro, valueDescription, url);
+
+    const res = await axios({
+      method: 'put',
+      url: `https://character-database.becode.xyz/characters/${id}`,
+      data: {
+        
+        name: `${valueName}`,
+        description: `${valueIntro}`,
+        shortDescription: `${valueDescription}`,
+      }
+      
+      });
+
+      console.log(res);
+
+    // axios.put("https://character-database.becode.xyz/characters/"+ id, {
+    //     image: url,
+    //     name: valueName,
+    //     description: valueDescription,
+    //     shortDescription: valueIntro,
+        
+    //     })
+    // .then((res) => console.log(res))
+       
+
+
+    window.location.assign("./index.html");
+  }
+
+
+  
+  
+  const form = document.querySelector('form');
+  form.addEventListener('submit', handleSubmit);
+
+
+////////Load new image
+
+function encode() {
+    document.getElementById("displayImg").removeAttribute("src");
+    var selectedfile = document.getElementById("portrait").files;
+    if (selectedfile.length > 0) {
+      var imageFile = selectedfile[0];
+      var fileReader = new FileReader();
+      fileReader.onload = function(fileLoadedEvent) {
+        var srcData = fileLoadedEvent.target.result;
+        var newImage = document.createElement('img');
+        newImage.src = srcData;
+        document.getElementById("displayImg").innerHTML = newImage.outerHTML;
+        let url = document.getElementById("txt").value = document.getElementById("displayImg").innerHTML;
+        console.log(url);
+      }
+      fileReader.readAsDataURL(imageFile);
+      
+    }
+  }
+
+
+  document.getElementById("portrait").addEventListener ("change", encode)
+
+  //Delete
+
+async function deleteCharacter() {
+  await axios.delete("https://character-database.becode.xyz/characters/"+ id);
+  window.location.replace("./index.html");
+
+}
+
+document.getElementById("delete").addEventListener("click", () => {
+  let deletion = confirm("Are you sure you want to delete this character?");
+  console.log(deletion);
+  if (deletion === true) {
+      
+     deleteCharacter()
+  }
+  })
