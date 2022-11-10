@@ -1,4 +1,4 @@
-5372
+5374
 88C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\.gitignore133123865672144813 0
 129C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\utils\src\isDirectoryInside.js133123853111111770 0
 90C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\package.json133123852109840120 0
@@ -15,7 +15,7 @@
 122C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\caniuse-lite\data\regions\DO.js133123853163227601 0
 118C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\events\src\types.js133123853054232182 0
 115C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\safe-buffer\package.json133123853018440910 0
-82C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist133124667227003323 1
+82C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist133124807145702232 1
 110C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\is-json\.travis.yml133123853035405762 0
 94C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\dlv133123853021216029 1
 127C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\tailwindcss\types\generated\.gitkeep133123853001395480 0
@@ -55,20 +55,20 @@
 125C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@jridgewell\set-array\package.json133123853020844262 0
 151C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\node.abi93.node133123853033930904 0
 112C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\detect-libc\README.md133123853018892855 0
-96C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\tailwind.config.js133124594652736628 0
+96C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\tailwind.config.js133124806657820987 0
 126C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\svgo\plugins\removeScriptElement.js133123853115344598 0
 125C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\fast-glob\out\providers\async.d.ts133123853093861759 0
 119C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\posthtml\types\posthtml.d.ts133123853037070244 0
 126C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\lib\_inherits_loose.js133123853106511779 0
 111C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\yaml\browser\pair.js133123853067042238 0
-96C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\src\character.html133124591132726098 0
+96C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\src\character.html133124764831332565 0
 101C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\read-cache133123853021948472 1
 100C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\fast-glob133123853090881768 1
 108C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\fs-search133123853104731760 1
 129C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\caniuse-lite\data\features\promises.js133123853189337623 0
 96C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\chalk133123853040795679 1
 122C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\resolve\test\home_paths_sync.js133123853092931779 0
-93C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\src\create.html133124591937596130 0
+93C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\src\create.html133124817137999610 0
 132C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\tailwindcss\lib\util\withAlphaVariable.js133123853159777594 0
 133C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133123853129007578 0
 108C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\caniuse-lite\dist133123853193667613 1
@@ -93,7 +93,7 @@
 108C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\msgpackr\index.js133123853038267431 0
 144C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\caniuse-lite\data\features\intersectionobserver-v2.js133123853175157604 0
 110C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\type-fest\base.d.ts133123853037892663 0
-92C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\src\index.html133124667220210004 0
+92C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\src\index.html133124807135569891 0
 133C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\chokidar\node_modules\glob-parent\index.js133123853014830123 0
 128C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\resolver-default\package.json133123853026653419 0
 119C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\fast-glob\out\utils\errno.js133123853055494111 0
@@ -141,6 +141,7 @@
 111C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\reusify\package.json133123853000396747 0
 133C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\resolve\test\resolver\multirepo\lerna.json133123853132057586 0
 134C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\caniuse-lite\data\features\css-image-set.js133123853152267593 0
+113C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.61d3354a.css.map.21492.c133124769612541659 0
 114C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\svgo\lib\stringifier.js133123853121617576 0
 140C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\postcss-selector-parser\dist\selectors\comment.js133123853034332912 0
 102C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\cosmiconfig133123853089611762 1
@@ -1098,7 +1099,7 @@
 127C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\lib\_new_arrow_check.js133123853115984611 0
 104C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\.bin\svgo.cmd133123853207657641 0
 113C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\callsites\package.json133123853000943292 0
-93C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.html133124667224406045 0
+93C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.html133124807145272226 0
 119C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\packager-raw\LICENSE133123853001103288 0
 126C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\utility-types\dist\utility-types.js133123853036235748 0
 115C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\node-gyp-build\README.md133123853040575682 0
@@ -4364,6 +4365,7 @@
 115C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@trysound\sax\lib\sax.js133123853017810909 0
 107C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\lib133123853129067538 1
 117C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\src\index.mjs133123853151347610 0
+113C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.61d3354a.css.map.21312.2133124770021845730 0
 129C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@jridgewell\trace-mapping\package.json133123853021596022 0
 139C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\src\_apply_decorated_descriptor.mjs133123853129937575 0
 132C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\src\_array_without_holes.mjs133123853130737571 0
@@ -4463,7 +4465,7 @@
 121C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\lib\_ts_values.js133123853127287579 0
 132C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\lib\_wrap_async_generator.js133123853128417591 0
 129C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@swc\helpers\lib\_wrap_native_super.js133123853128897585 0
-148C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\hamilton-7-character-manager-chuck-norris-forever.59712999.js.map133124667226953295 0
+148C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\hamilton-7-character-manager-chuck-norris-forever.59712999.js.map133124807145602233 0
 192C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm133123853130277570 1
 114C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\bundler-default133123853028563417 1
 104C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\@parcel\cache133123853063451559 1
@@ -5368,6 +5370,6 @@
 102C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\.bin\terser133123853207547642 0
 106C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\.bin\terser.cmd133123853207547642 0
 106C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\node_modules\.bin\terser.ps1133123853207557630 0
-144C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\hamilton-7-character-manager-chuck-norris-forever.59712999.js133124667225613301 0
-101C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.61d3354a.css133124667224446042 0
-105C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.61d3354a.css.map133124667225483300 0
+144C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\hamilton-7-character-manager-chuck-norris-forever.59712999.js133124807145262217 0
+101C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.61d3354a.css133124807145272226 0
+105C:\Users\vitto\Music\BECODE\hamilton-7-character-manager-chuck-norris-forever\dist\index.61d3354a.css.map133124807145602233 0
