@@ -44,29 +44,59 @@ async function handleSubmit(event) {
 
     // let url = document.querySelector("img").getAttribute("src");
 
-    let url = document.querySelector("img").getAttribute("src");
-  
+    // let url = document.querySelector("img").getAttribute("src");
+
+
+    
+
     const valueName = document.getElementById('name').value;
 
     const valueIntro = document.getElementById('intro').value;
 
     const valueDescription = document.getElementById('description').value;
+
+    if (document.querySelector("#portrait").files[0]){
+      let url = document.getElementById("txt").value.slice(33);
+
+      const res = await axios({
+        method: 'put',
+        url: `https://character-database.becode.xyz/characters/${id}`,
+        data: {
+          image: url,
+          name: `${valueName}`,
+          description: `${valueIntro}`,
+          shortDescription: `${valueDescription}`,
+        }
+        
+        });
   
-    console.log(valueName, valueIntro, valueDescription, url);
+        console.log(res);
+    }
+    else {
+     let newUrl = document.querySelector("img").getAttribute("src");
 
-    // const res = await axios({
-    //   method: 'put',
-    //   url: `https://character-database.becode.xyz/characters/${id}`,
-    //   data: {
-    //     image: url,
-    //     name: `${valueName}`,
-    //     description: `${valueIntro}`,
-    //     shortDescription: `${valueDescription}`,
-    //   }
+     newUrl = newUrl.replace("data:", "").replace("image/gif;base64,", "");
+
+    const res = await axios({
+      method: 'put',
+      url: `https://character-database.becode.xyz/characters/${id}`,
+      data: {
+        image: newUrl,
+        name: `${valueName}`,
+        description: `${valueIntro}`,
+        shortDescription: `${valueDescription}`,
+      }
       
-    //   });
+      });
 
-    //   console.log(res);
+      console.log(res);
+      
+    }
+  
+    
+  
+
+    
 
     // axios.put("https://character-database.becode.xyz/characters/"+ id, {
     //     image: url,
@@ -79,7 +109,7 @@ async function handleSubmit(event) {
        
 
 
-    // window.location.assign("./index.html");
+    window.location.assign("./index.html");
   }
 
 
