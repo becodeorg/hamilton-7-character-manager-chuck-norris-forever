@@ -3,7 +3,7 @@ import axios from 'axios';
 //Populate with existing character
 
 document.getElementById("displayImg");
-
+encode();
 
 ///Get id from URL
 const link = new URL(window.location);
@@ -29,7 +29,6 @@ axios.get("https://character-database.becode.xyz/characters/"+ id)
     longDescription.value = data.description;
 
 
-
 })
 
 ////Get form input and post
@@ -40,6 +39,8 @@ async function handleSubmit(event) {
   
     // const data = new FormData(event.target);
 
+
+    // let url = document.querySelector("img").getAttribute("src");
 
     let url = document.getElementById("txt").value.slice(33);
   
@@ -55,7 +56,7 @@ async function handleSubmit(event) {
       method: 'put',
       url: `https://character-database.becode.xyz/characters/${id}`,
       data: {
-        
+        image: url,
         name: `${valueName}`,
         description: `${valueIntro}`,
         shortDescription: `${valueDescription}`,

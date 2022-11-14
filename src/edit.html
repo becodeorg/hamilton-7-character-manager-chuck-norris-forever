@@ -8,52 +8,52 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 
-<body class="bg-gradient-to-r from-blue-500 to-red-500">
+<body class="pb-16 flex gap-2 flex-col items-center bg-gradient-to-r from-blue-500 to-red-500">
     <header>
         <h1 class="text-5xl text-white">CHARACTER MANAGER</h1>
         <hr>
     </header>
 
-    <div>
-        <div>
+    <div class="flex flex-col align-middle">
+        <div class="bg-gray-300 text-center m-10  p-10 rounded-lg">
             <form action="" method="get" class="form-example">
 
-                <div class="form-example">
+                <div class="form-example flex flex-col items-center">
                     <label for="portrait">Image</label>
                     <br>
                     <input type="file" name="portrait" id="portrait">
                     <div id="displayImg"></div>
                     <div>
-                        <textarea id="txt">
+                        <textarea id="txt" style="display: none;">
                         </textarea>
                       </div>
                 </div>
 
-                <div class="form-example">
+                <div class="form-example bg-white p-1 m-2 rounded-md">
                     <label for="name">Name</label>
                     <br>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name" size="50">
                 </div>
 
-                <div class="form-example">
+                <div class="form-example bg-white p-1 m-2 rounded-md">
                     <label for="email">Intro</label>
                     <br>
-                    <input type="intro" name="intro" id="intro">
+                    <input type="intro" name="intro" id="intro" size="50">
                 </div>
 
-                <div class="form-example">
+                <div class="form-example bg-white p-1 m-2 rounded-md">
                     <label for="description">Description</label>
                     <br>
                     <input type="text" name="description" id="description">
                 </div>
 
                 <div class="form-example">
-                    <!-- <input type="submit" value="Save changes"> -->
-                    <button id="submit">Submit</button>
+                    <input type="submit" value="Save changes" class="bg-gradient-to-r from-red-500 to-blue-500 text-white p-4 m-10 rounded-full hover:text-black">
                 </div>
             </form>
         </div>
-        <button id="delete">Delete</button>
+        <button id="delete" class="bg-gradient-to-r from-red-500 to-blue-500 text-white p-4 m-10 rounded-full hover:text-black">Delete</button>
+        <a href="./index.html" class="bg-gradient-to-r from-red-500 to-blue-500 text-white p-4 m-10 rounded-full hover:text-black">Back to homepage</a>
     </div>
     <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="./edit.js" type="module"></script>
