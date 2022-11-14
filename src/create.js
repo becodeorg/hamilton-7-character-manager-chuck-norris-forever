@@ -3,6 +3,7 @@
 
 async function handleSubmit(event) {
     event.preventDefault();
+    
   
     const data = new FormData(event.target);
 
@@ -15,7 +16,7 @@ async function handleSubmit(event) {
 
     const valueDescription = data.get('description');
   
-    console.log(valueName, valueIntro, valueDescription, url);
+    console.log(valueName, valueIntro, valueDescription, url, document.getElementById("txt").value);
 
     await axios.post("https://character-database.becode.xyz/characters", {
         name: valueName,
@@ -24,7 +25,7 @@ async function handleSubmit(event) {
         image: url,
         
      })
-    // window.location.assign("./index.html");
+    window.location.assign("./index.html");
   }
 
 
