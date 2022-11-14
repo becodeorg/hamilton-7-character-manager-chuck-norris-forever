@@ -2,9 +2,15 @@
   "name": "hamilton-7-character-manager-chuck-norris-forever",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": [
+    "src/index.html",
+    "src/create.html",
+    "src/edit.html",
+    "src/character.html"
+  ],
   "scripts": {
-    "start": "parcel src/index.html src/character.html src/create.html src/edit.html"
+    "start": "parcel",
+    "build": "parcel"
   },
   "repository": {
     "type": "git",

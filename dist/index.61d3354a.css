@@ -299,16 +299,16 @@ img, video {
   align-items: center;
 }
 
+.gap-2 {
+  gap: .5rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-2 {
-  gap: .5rem;
 }
 
 .rounded-full {
