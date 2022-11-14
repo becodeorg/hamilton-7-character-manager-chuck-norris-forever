@@ -3,7 +3,7 @@ import axios from 'axios';
 //Populate with existing character
 
 document.getElementById("displayImg");
-encode();
+
 
 ///Get id from URL
 const link = new URL(window.location);
@@ -23,26 +23,28 @@ axios.get("https://character-database.becode.xyz/characters/"+ id)
     let longDescription = document.getElementById("description");
     document.getElementById("displayImg").appendChild(image);
     image.setAttribute("src", "data:image/gif;base64," + data.image);
+    imageURL = data.image;
     document.getElementById("txt").value = document.getElementById("displayImg").innerHTML;
     name.value = data.name;
     description.value = data.shortDescription;
     longDescription.value = data.description;
 
-
+  
 })
+
 
 ////Get form input and post
 
 
 async function handleSubmit(event) {
     event.preventDefault();
-  
+    
     // const data = new FormData(event.target);
 
 
     // let url = document.querySelector("img").getAttribute("src");
 
-    let url = document.getElementById("txt").value.slice(33);
+    let url = document.querySelector("img").getAttribute("src");
   
     const valueName = document.getElementById('name').value;
 
@@ -52,19 +54,19 @@ async function handleSubmit(event) {
   
     console.log(valueName, valueIntro, valueDescription, url);
 
-    const res = await axios({
-      method: 'put',
-      url: `https://character-database.becode.xyz/characters/${id}`,
-      data: {
-        image: url,
-        name: `${valueName}`,
-        description: `${valueIntro}`,
-        shortDescription: `${valueDescription}`,
-      }
+    // const res = await axios({
+    //   method: 'put',
+    //   url: `https://character-database.becode.xyz/characters/${id}`,
+    //   data: {
+    //     image: url,
+    //     name: `${valueName}`,
+    //     description: `${valueIntro}`,
+    //     shortDescription: `${valueDescription}`,
+    //   }
       
-      });
+    //   });
 
-      console.log(res);
+    //   console.log(res);
 
     // axios.put("https://character-database.becode.xyz/characters/"+ id, {
     //     image: url,
@@ -77,7 +79,7 @@ async function handleSubmit(event) {
        
 
 
-    window.location.assign("./index.html");
+    // window.location.assign("./index.html");
   }
 
 
