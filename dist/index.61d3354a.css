@@ -351,6 +351,10 @@ img, video {
   gap: 1.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-lg {
   border-radius: .5rem;
 }

@@ -16,8 +16,9 @@ axios.get("https://character-database.becode.xyz/characters")
         let image = document.createElement("img");
         image.classList.add("inline", "border-2", "border-slate-300", "rounded-full", "w-20", "h-20", "m-1");
         let name = document.createElement("h3");
-        name.classList.add("name","text-3xl", "text-center");
+        name.classList.add("name","text-3xl", "text-center", "overflow-hidden");
         let description = document.createElement("p");
+        description.classList.add("overflow-hidden");
         let characterCard = document.createElement("a");
         characterCard.classList.add("border-2", "rounded-lg");
         let id = document.createElement("p");
