@@ -47,6 +47,7 @@ async function handleSubmit(event) {
           fileReader.onload = function(fileLoadedEvent) {
             var srcData = fileLoadedEvent.target.result;
             var newImage = document.createElement('img');
+            // newImage.classList.add("inline", "border-2", "border-slate-300", "rounded-full", "w-20", "h-20", "m-1");
             newImage.src = srcData;
             document.getElementById("displayImg").innerHTML = newImage.outerHTML;
             document.getElementById("txt").value = document.getElementById("displayImg").innerHTML;
