@@ -35,41 +35,30 @@ axios.get("https://character-database.becode.xyz/characters")
         card.appendChild(id);
         id.style.display = "none";
         container.appendChild(card);
+        console.log(data[i].name);
+        /// Search bar
+        document.getElementById("searchBar").addEventListener("keyup", () => {
+            let filter = document.getElementById("searchBar").value;     // get the value input in the search bar
+            let txtValue = data[i].name;         
+            filter = filter.toUpperCase();
+            txtValue = txtValue.toUpperCase();    // not case sensitive
+    
+            if (txtValue.indexOf(filter) > -1) {  
+                card.style.display = "";
+            } else {
+              card.style.display = "none";
+            }
+        })
+        
         
     }
     
-   
+    
 }
 )
 
 
-/// Search bar
-
-const searchBar = document.getElementById("searchBar");
-const searchBtn = document.getElementById("searchBtn");
-const names = document.querySelectorAll(".name");
-const characterIDs = document.querySelectorAll(".id");
-console.log(names, characterIDs);
 
 
-function handleSearch(event) {
-    event.preventDefault();
-    const data = new FormData(event.target);
-
-    let input = data.get("search");
-   
-    console.log(input);
-
-    for(let i = 0; i < cards.length; i++) {
-
-        if (input != characterNames[i].innerText || input != characterId[i].innerText) {
-                container.removeChild(card[i]);
-        }
-
-    }
-
-}
-
-document.querySelector("form").addEventListener("submit", handleSearch);
 
 
