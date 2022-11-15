@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "parcel",
-    "build": "parcel"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
