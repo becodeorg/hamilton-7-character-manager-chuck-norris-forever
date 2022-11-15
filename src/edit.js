@@ -23,7 +23,7 @@ axios.get("https://character-database.becode.xyz/characters/"+ id)
     let longDescription = document.getElementById("description");
     document.getElementById("displayImg").appendChild(image);
     image.setAttribute("src", "data:image/gif;base64," + data.image);
-    imageURL = data.image;
+    let imageURL = data.image;
     document.getElementById("txt").value = document.getElementById("displayImg").innerHTML;
     name.value = data.name;
     description.value = data.shortDescription;
@@ -83,8 +83,8 @@ async function handleSubmit(event) {
       data: {
         image: newUrl,
         name: `${valueName}`,
-        description: `${valueIntro}`,
-        shortDescription: `${valueDescription}`,
+        description: `${valueDescription}`,
+        shortDescription: `${valueIntro}`,
       }
       
       });
