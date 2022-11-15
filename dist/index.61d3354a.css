@@ -271,12 +271,20 @@ img, video {
   margin: .25rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }
 
 .flex {
   display: flex;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-80 {
@@ -289,6 +297,10 @@ img, video {
 
 .h-5\/6 {
   height: 83.3333%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-48 {
@@ -323,6 +335,10 @@ img, video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-2 {
   gap: .5rem;
 }
@@ -335,25 +351,39 @@ img, video {
   gap: 1.25rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-lg {
   border-radius: .5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-md {
   border-radius: .375rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .bg-gray-300 {
@@ -408,6 +438,7 @@ img, video {
   --tw-gradient-to: #3b82f6;
 }
 
+<<<<<<< HEAD
 .to-red-400 {
   --tw-gradient-to: #f87171;
 }
@@ -422,10 +453,18 @@ img, video {
 
 .p-6 {
   padding: 1.5rem;
+=======
+.p-2 {
+  padding: .5rem;
+>>>>>>> 8c59fba82d5a686d12d08f2854a4ec16003cd51f
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-10 {
@@ -446,6 +485,10 @@ img, video {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-center {
@@ -476,9 +519,35 @@ img, video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.focus\:border-blue-500:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
+}
+
+.focus\:ring-blue-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
 }
 
 /*# sourceMappingURL=index.61d3354a.css.map */
