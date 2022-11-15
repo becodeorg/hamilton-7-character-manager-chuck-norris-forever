@@ -64,8 +64,8 @@ async function handleSubmit(event) {
         data: {
           image: url,
           name: `${valueName}`,
-          description: `${valueIntro}`,
-          shortDescription: `${valueDescription}`,
+          description: `${valueDescription}`,
+          shortDescription: `${valueIntro}`,
         }
         
         });

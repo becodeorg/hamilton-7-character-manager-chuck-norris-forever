@@ -420,10 +420,6 @@ img, video {
   --tw-gradient-to: #93c5fd;
 }
 
-.p-3 {
-  padding: .75rem;
-}
-
 .p-2 {
   padding: .5rem;
 }
@@ -442,6 +438,10 @@ img, video {
 
 .p-1 {
   padding: .25rem;
+}
+
+.p-3 {
+  padding: .75rem;
 }
 
 .pb-16 {
